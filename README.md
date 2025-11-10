@@ -32,7 +32,7 @@ Basenote — Repository package (ملفات جاهزة لرفع Webflow وتشغ
 5) تشغيل backend محلياً (نموذج contact)
    cd backend
    npm install
-   انسخ ملف .env.example إلى .env وعدّل القيم إن رغبت
+   انسخ ملف .env.example إلى .env وعدّل القيم إن أردت
    npm run dev
    سيعمل السيرفر على http://localhost:8080 (endpoint /api/contact و /api/health)
 

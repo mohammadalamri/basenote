@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Basenote — الرئيسية</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <img src="assets/logo.svg" alt="Basenote logo" class="logo"/>
+      <nav class="nav">
+        <a href="/">الرئيسية</a>
+        <a href="/about.html">عنّا</a>
+        <a href="/services.html">الخدمات</a>
+        <a href="/blog.html">المدونة</a>
+        <a href="/contact.html" class="cta">تواصل معنا</a>
+      </nav>
+      <button class="nav-toggle" aria-label="فتح القائمة">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="background-image:url('assets/hero-home.jpg')">
+      <div class="container">
+        <h1>Basenote — ملاحظاتك، منسقة بشكل احترافي</h1>
+        <p>حلول نشر المحتوى والتدوين بإدارة سهلة عبر Webflow وواجهة مخصصة.</p>
+        <a href="/services.html" class="button primary">اطلع على الخدمات</a>
+      </div>
+    </section>
+
+    <section class="features container">
+      <h2>خدماتنا</h2>
+      <div class="feature-grid">
+        <article class="card">
+          <img src="assets/feature-1.jpg" alt="">
+          <h3>تصميم صفحات</h3>
+          <p>إنشاء صفحات مبسطة وسريعة الاستجابة مع Webflow.</p>
+        </article>
+        <article class="card">
+          <img src="assets/feature-2.jpg" alt="">
+          <h3>نشر المدونات</h3>
+          <p>نظام CMS مُهيأ لنشر مقالاتك بسهولة.</p>
+        </article>
+        <article class="card">
+          <img src="assets/feature-3.jpg" alt="">
+          <h3>تكامل Backend</h3>
+          <p>نماذج ومخازن بيانات وخدمات بريدية جاهزة.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container blog-preview">
+      <h2>أحدث المقالات</h2>
+      <div class="blog-list">
+        <!-- Webflow: هذا القسم سيكون Collection List -->
+        <article class="card">
+          <img src="assets/post-1.jpg" alt="">
+          <h3><a href="/blog/post-1.html">عنوان مقالة تجريبية</a></h3>
+          <p class="summary">ملخص قصير للمقالة لعرض المعاينة.</p>
+        </article>
+      </div>
+      <a href="/blog.html" class="button">عرض المزيد</a>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© Basenote — جميع الحقوق محفوظة</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
